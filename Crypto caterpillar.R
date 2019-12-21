@@ -60,3 +60,7 @@ caterp<-function(price,dur.past=14,dur.pred=28,n.similar=5){
   }
   return(price.pred)
 }
+
+#Can try this out:
+caterp(btc.h$Close,168,168,3)
+caterp(eth.h$Close,168,168,3)
